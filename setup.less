@@ -1,0 +1,177 @@
+@import "common.less";
+
+.oauthTitle {
+    font-size: 12px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+}
+
+.oauthBody {
+    padding: 15px 15px 5px 15px;
+}
+
+.accountSetupConfirmPad {
+    padding: 10px 0px 0px 30px;
+    width: 78%;
+}
+
+.accountSetupConfirm {
+    padding: 3px 0px 0px 25px;
+    background-color: #FFFFCC;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #D7D7D7;
+    font-size: 14px;
+    height: 30px;
+}
+
+.saveConfirm {
+    .generalText(@statusTextOrangeColor, 14px);
+    padding-bottom: 10px;
+}
+
+.setupTitle {
+    .generalText(@titleTextColor, 16px);
+    padding-left: 30px;
+}
+
+.setupArea {
+    padding-left: 30px;
+    width: 78%;
+}
+
+.setupBox {
+    background-color: #F6F6F6;
+    border: 1px solid #D7D7D7;
+    border-radius: 5px;
+    font-size: 12px;
+    min-height: 45px;
+    padding: 10px 0px 10px 25px;
+}
+
+.setupBoxTitle {
+    float: left;
+    font-size: 14px;
+}
+
+.setupBoxTitle a {
+    color: @titleTextColor;
+}
+
+/* Setup account area */
+.setupAccountArea {
+    padding: 5px 5px 20px 42px;
+}
+
+.setupAccountTitle {
+    .generalText(@statusTextOrangeColor, 14px);
+}
+
+.setupAccountSteps {
+    font-size: 12px;
+    padding-top: 10px
+}
+
+.setupAccountStep {
+    padding-top: 5px;
+}
+
+.postSetupSteps {
+    padding-left: 35px;
+}
+
+/* Account overview area */
+.accountImg {
+    float: left;
+    margin: 0px 30px 0px 5px;
+    width: 1%;
+}
+
+.accountValidText {
+    .generalText(@statusTextGreenColor, 12px);
+    float: left;
+    margin: 2px 0px 0px 15px;
+}
+
+.accountInvalidText {
+    .generalText(@statusTextRedColor, 12px);
+}
+
+.instructionLink {
+    .generalText(@lightTextColor, 12px);
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.accountInfo {
+    padding-top: 10px;
+}
+
+.accountInfo table {
+    border-collapse: separate;
+    border-spacing: 0px 5px;
+}
+
+/* Setup categories area */
+.setupCategoriesImg {
+    float: left;
+    margin-right: 35px;
+    width: 1%;
+}
+
+.setupCategoriesMsg {
+    clear: both;
+    margin-left: 45px;
+    padding-bottom: 5px;
+}
+
+.setupCategoriesSteps {
+    padding-left: 90px;
+}
+
+.setupCategoriesStep {
+    padding-bottom: 5px;
+}
+
+.setupCategoriesFailMsg {
+    color: @statusTextRedColor;
+    margin: 0px 0px 10px 0px;
+}
+
+.setupCategoriesSuccessMsg {
+    color: @statusTextGreenColor;
+    margin: 0px 0px 10px 0px;
+}
+
+/* Buttons and button area */
+.yellowButton {
+    .yellowButton();
+    min-width: 20px;
+    float: left;
+    padding: 3px 10px;
+    .generalFont();
+    height: 30px;
+    width: 70px;
+}
+
+.grayButton {
+    .grayButton();
+}
+
+/* Commodity mapping */
+.viewMappingTitle {
+    padding-top: 15px;
+}
+
+.mappingRow {
+    border-bottom: 1px solid #D7D7D7;
+    padding: 5px 0px;
+}
+
+.mappingCol {
+    padding-right: 10px;
+}
+
+.mappings {
+    float: right;
+    padding-right: 30px;
+}
